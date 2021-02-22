@@ -1,6 +1,6 @@
 # Google Software Product Sprint
 
-This repo contains the projects you'll work on throughout SPS.
+This repo contains Alexander Low Fung's portfolio and SPS projects.
 
 To get started:
 
@@ -10,3 +10,5 @@ To get started:
   - If the tutorial panel does not open or display the walkthrough contents, try refreshing the page.
 
 Then follow the on-screen instructions to set up your repo.
+
+I have successfully used nano README.md to modify the file! 12:19am (22/feb/2021)
