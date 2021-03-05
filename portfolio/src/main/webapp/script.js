@@ -19,25 +19,21 @@ function addRandomGreeting() {
   const greetings =
       ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
 
-
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
 
   // Add it to the page.
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
-
-
-
+//   document.write("\n");
+  // TBH I don't know if this is what you mean by trailing new line
 }
 
 function showGreeting() {
-
-//   print("Is showGreeting running?");
-//   <p>Does this work inside a JavaScript file</p>
-  const myGreeting = "Something I do to study Japanese is to go to Twitter and read random Japanese tweets"
+  // My greeting  
+  const myGreeting = "Something I do to study Japanese is to go to Twitter and read random Japanese tweets";
   
+  // Add to the page
   const myGreetingContainer = document.getElementById('my-greeting-container');
   myGreetingContainer.innerText = myGreeting;
-
 }
