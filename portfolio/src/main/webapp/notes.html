@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>List of notes</h1>
+    <h2>Notes/Questions/Comments I had while going through my webpage<h2>
+
+    <h5>2/26/2021</h5>
+
+    <ul>
+        <li>
+            Webpage updates in real time only files that have been previously staged and comitted, 
+            however, that doesn't apply to unstaged files (a.k.a. have never been staged).
+             <br>
+            Update (3/4/2021): The changes aren't live updating anymore; I have to run <code>mvn package exec:java</code>.
+        </li>
+        <li>ADD HTML TAGS TO .html FILE</li>
+        <li>So I can use "< p > < / p >" for paragraphs, but theoretically I could just write like this w/o tags if I just want single lines.
+            <br>
+            <strong>ANSWER: </strong>
+            That's not a good idea. Web browsers contain a great deal of code to do their best with non-conforming text input but conforming input will
+            <ul>
+                <li>parse faster</li>
+                <li>render correctly on more browsers</li>
+                <li>may rank higher in search results</li>
+                <li>be possible to consistently interact with from JavaScript.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h5>3/4/2021</h5>
+
+    <ul>
+        <li>The (empty) <code><hr></code> tag prints a whole line separator by itself if nothing is specified in CSS</li>
+        <li>The reason why "output" in < code >< output name="x" >< /output ></code>knows inmediately to print out "x" 
+            because it is defined a few lines above as x.value</li>
+        <li>
+            Still don't know escape sequences (if any) to print out html tags as text
+            <strong>ANSWER: </strong>
+            <code>\<pre></code> tag
+        </li>
+        <li>"Outdated" comments are review comments older than the current commit</li>
+    </ul>
+  </body>
+</html>

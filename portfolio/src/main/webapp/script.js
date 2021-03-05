@@ -25,4 +25,15 @@ function addRandomGreeting() {
   // Add it to the page.
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
+//   document.write("\n");
+  // TBH I don't know if this is what you mean by trailing new line
+}
+
+function showGreeting() {
+  // My greeting  
+  const myGreeting = "Something I do to study Japanese is to go to Twitter and read random Japanese tweets";
+  
+  // Add to the page
+  const myGreetingContainer = document.getElementById('my-greeting-container');
+  myGreetingContainer.innerText = myGreeting;
 }

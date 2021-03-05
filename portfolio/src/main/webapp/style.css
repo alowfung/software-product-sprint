@@ -7,3 +7,10 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+hr {
+    border: solid;
+    border-style: dotted;
+    color: rgb(142, 92, 189);
+    size: 5px;
+}
